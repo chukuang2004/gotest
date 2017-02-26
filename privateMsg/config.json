@@ -1,0 +1,16 @@
+{
+    "listen_addr":":8080",
+    "mysql": {
+        "host": "127.0.0.1:3306",
+        "database": "webim",
+        "user": "root",
+        "password": "12345678"
+    },
+    "redis": {
+            "host": "127.0.0.1:6379",
+            "password": ""
+    },
+    "redis_idle": 10,
+    "redis_max_active": 0,
+    "loglevel": "DEBUG"
+}
